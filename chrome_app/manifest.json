@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "UCAS EVALUATION AUTOMATE",
+    "version": "2.1",
+    "description": "ucas course evaluation automate",
+    "content_scripts": [
+        {
+            "matches": ["http://jwxk.ucas.ac.cn/evaluate/evaluate/*"],
+            "js": ["js/content.js"]
+        }
+    ]
+}
